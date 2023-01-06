@@ -1,0 +1,356 @@
+@media screen and (max-width: 724px) {
+
+    .header-container {
+        width: 100%;
+    }
+    .header-logo {
+        margin-left: 24px;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .hero-block {
+        max-width: 340px;
+        margin: 0 10%;
+        margin-top: 24px;
+    }
+
+    .hero-container {
+        max-width: 350px;
+        padding: 21px;
+        border-radius: 21px;
+    }
+
+    .hero-heading {
+        font-size: 21px;
+        line-height: 34px;
+    }
+
+    .hero-heading-description {
+        max-width: 90%;
+    }
+
+    .hero-buttons {
+        margin-left: 35px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-links {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 16px;
+        grid-column-gap: 11px;
+    }
+
+    .hero-button {
+        white-space: nowrap;
+    }
+
+    .about {
+        margin-top: 85px;
+    }
+
+    .about-container {
+        display: block;
+        text-align: center;
+        margin: 0 10%;
+    }
+
+    .interests {
+        margin: 0 10%;
+        margin-top: 84px;
+        text-align: center;
+    }
+
+    .interests-wrapper {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 8px;
+        grid-column-gap: 8px;
+    }
+
+    .interest {
+        width: 145px;
+        height: 77px;
+        font-size: 14px;
+    }
+
+    .projects {
+        margin: 0 auto;
+        margin-top: 85px;
+        max-width: 330px;
+    }
+
+    .projects-list {
+        padding: 0;
+    }
+
+    .projects-item {
+        padding: 0;
+        margin: 0 auto;
+        width: 330px;
+        height: 333.48px;
+        display: block;
+    }
+
+    .projects-item:not(first-child) {
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+
+    .projects-item:first-child {
+        margin-bottom: 117px;
+    }
+
+    .projects-img {
+        padding: 0;
+        margin: 0;
+        width: 310px;
+        height: 115px;
+    }
+
+    .project-info {
+        margin: 0;
+    }
+
+    .project-type {
+        font-size: 16px;
+        margin-top: 7px;
+        line-height: 16px;
+    }
+
+    .projects-spec {
+        margin-top: 3px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .project-item-description {
+        font-size: 16px;
+    }
+
+    .projects-button {
+        margin-top: 15px;
+        position:static;
+        width: 134px;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    .connect {
+        margin: 0 10%;
+        margin-top: 85px;
+    }
+
+    .footer {
+        margin-top: 70px;
+    }
+
+    .footer-item {
+        margin-right: 40px;
+    }
+}
+
+
+@media screen and (min-width:724px) and (max-width: 1024px){
+    .burger-menu {
+        display: block;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .hero-block {
+        margin: 86px 10%;
+        max-width: 689px;
+    }
+
+    .hero-container {
+        padding: 70px;
+    }
+
+    .hero-buttons {
+        margin-left: 0px;
+        white-space: nowrap;
+    }
+
+    .about {
+        margin: 0 auto;
+        max-width: 652px;
+    }
+
+    .about-left {
+        margin-right: 18px;
+    }
+
+    .interests {
+        margin-top: 112px;
+    }
+
+    .interest {
+        width: 225px;
+        height: 120px;
+    }
+
+    .projects {
+        max-width: 676px;
+        margin: 0 auto;
+        margin-top: 72px;
+    }
+
+    .projects-list {
+        padding: 0;
+    }
+
+    .projects-item {
+        margin: 0 10%;
+        margin-top: 0;
+        max-width: 676px;
+        margin-bottom: 40px;
+    }
+
+    .projects-item:not(first-child) {
+        margin: 50px 0;
+    }
+
+    .projects-img {
+        width: 340px;
+        height: 272px;
+    }
+
+
+    .project-info {
+        width: 340px;
+        height: 272px;
+    }
+
+    .project-type {
+        margin-top: 0;
+        font-size: 14px;
+        margin-bottom: 9px;
+    }
+
+    .project-spec {
+        margin-top: 9px;
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .project-item-description {
+        margin-top: 10px;
+        font-size: 16px;
+        width: 340px;
+        line-height: 20px;
+    }
+
+    .projects-button {
+        position: absolute;
+        margin-top: 10px;
+    }
+
+    .connect {
+        margin-top: 104px;
+        margin-bottom: 0;
+    }
+
+    .footer {
+        margin-top: 107px;
+    }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+    .header {
+        white-space: nowrap;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .header-container {
+        margin: 0;
+        margin-left: 20px;
+    }
+
+    .hero-block {
+        width: 762px;
+        margin: 0 auto;
+        margin-top: 131px;
+    }
+
+    .hero-buttons {
+        margin: 0;
+    }
+
+    .about {
+        margin-top: 264px;
+    }
+
+    .interests {
+        margin: 0 auto;
+        margin-top: 264px;
+    }
+
+    .interest {
+        height: 150px;
+        width: 300px;
+    }
+
+    .projects {
+        margin: 0 auto;
+        margin-top: 258px;
+        width: 964px;
+    }
+
+    .projects-list {
+        padding: 0;
+    }
+
+    .projects-item {
+        width: 964px;
+        height: 274px;
+        padding: 0;
+    }
+
+    .project-info {
+        max-width: 345px;
+        height: 274px;
+        margin-right: 0;
+    }
+
+    .project-type {
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    .project-spec {
+        font-style: 32px;
+        line-height: 32px;
+
+    }
+
+    .project-item-description {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .projects-img {
+        width: 595px;
+        height: 274px;
+    }
+
+    .connect {
+        margin-top: 224px;
+    }
+
+    .footer {
+        margin-top: 175px;
+    }
+}
